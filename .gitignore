@@ -6,9 +6,9 @@
 
 
 cts/*
-dalvik/*
-developers/*
-development/*
+#dalvik/*
+#developers/*
+#development/*
 device/*
 
 
@@ -16,10 +16,10 @@ external/*
 frameworks/*
 hardware/*
 kernel/*
-libcore/*
+#libcore/*
 
 
-libnativehelper/*
+#libnativehelper/*
 
 #packages/*
 packages/modules/ArtPrebuilt/com.android.art.debug-x86_64.apex
