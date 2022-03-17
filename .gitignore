@@ -21,7 +21,7 @@ libcore/*
 
 libnativehelper/*
 
-packages/*
+#packages/*
 packages/modules/ArtPrebuilt/com.android.art.debug-x86_64.apex
 packages/modules/ArtPrebuilt/com.android.art.debug-arm64.apex
 packages/modules/ArtPrebuilt/com.android.art-x86_64.apex
