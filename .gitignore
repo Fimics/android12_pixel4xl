@@ -36,15 +36,15 @@ File packages/modules/GeoTZ/tzbb_data/input-data.zip
 File frameworks/base/cmds/incidentd/testdata/morethan96MB.txt
 
 
-pdk/*
-platform_testing/*
+#pdk/*
+#platform_testing/*
 prebuilts/*
 
 
-sdk/*
+#sdk/*
 system/*
-test/*
-toolchain/*
+#test/*
+#toolchain/*
 tools/*
 
 #out/*
