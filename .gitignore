@@ -46,5 +46,14 @@ system/*
 test/*
 toolchain/*
 tools/*
-out/*
+
+#out/*
+out/host/*
+out/soong/*
+out/target/*
+out/.kati_stamp-aosp_coral
+out/build-aosp_coral.ninja
+
+
+
 vendor/*
