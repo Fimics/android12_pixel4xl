@@ -13,7 +13,7 @@ device/*
 
 
 external/*
-frameworks/*
+#frameworks/*
 hardware/*
 kernel/*
 #libcore/*
@@ -32,8 +32,8 @@ packages/modules/BootPrebuilt/5.4/arm64/boot-userdebug.img
 packages/modules/ArtPrebuilt/com.android.art-arm64.apex
 packages/modules/ArtPrebuilt/com.android.art-x86.apex
 packages/apps/TV/tuner/tests/assets/capture_stream.ts
-File packages/modules/GeoTZ/tzbb_data/input-data.zip
-File frameworks/base/cmds/incidentd/testdata/morethan96MB.txt
+packages/modules/GeoTZ/tzbb_data/input-data.zip
+frameworks/base/cmds/incidentd/testdata/morethan96MB.txt
 
 
 #pdk/*
