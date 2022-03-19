@@ -68,6 +68,4 @@ out/.microfactory_Darwin_intermediates/*
 out/.module_paths/*
 
 
-
-
-vendor/*
+#vendor/*

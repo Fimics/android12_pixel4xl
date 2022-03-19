@@ -1,0 +1,6 @@
+require board=flame|coral
+
+require version-bootloader=c2f2-0.4-7769739
+
+
+require version-baseband=g8150-00117-211022-B-7848165
