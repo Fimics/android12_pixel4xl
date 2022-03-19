@@ -6,6 +6,9 @@
 
 
 cts/*
+cts/tests/MediaProviderTranscode/res/raw/testVideo_HEVC_long.mp4
+cts/tests/tests/content/data/malformed.apk.idsig
+
 #dalvik/*
 #developers/*
 #development/*
