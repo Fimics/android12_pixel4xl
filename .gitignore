@@ -19,9 +19,9 @@ device/google/coral-kernel/unstripped/wlan.ko
 #external/*
 
 #文件夹从大到小排列
-external/llvm-project/*
-external/deqp/*
-external/jackson-databind/*
+#external/llvm-project/*
+#external/deqp/*
+#external/jackson-databind/*
 #external/libabigail/*
 #external/swiftshader/*
 #external/vixl/*
