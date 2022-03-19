@@ -43,7 +43,43 @@ frameworks/base/cmds/incidentd/testdata/morethan96MB.txt
 #pdk/*
 #platform_testing/*
 
-prebuilts/*
+#prebuilts/*
+prebuilts/abi-dumps/*
+prebuilts/android-emulator/*
+prebuilts/asuite/*
+prebuilts/bazel/*
+prebuilts/build-tools/*
+prebuilts/bundletool/*
+prebuilts/checkcolor/*
+prebuilts/checkstyle/*
+prebuilts/clang/*
+
+prebuilts/clang-tools/*
+prebuilts/cmdline-tools/*
+prebuilts/devtools/*
+prebuilts/fuchsia_sdk/*
+prebuilts/gcc/*
+prebuilts/gdb/*
+prebuilts/go/*
+prebuilts/gradle-plugin/*
+prebuilts/jdk/*
+#prebuilts/ktlint/*
+
+prebuilts/manifest-merger/*
+prebuilts/maven_repo/*
+prebuilts/misc/*
+prebuilts/module_sdk/*
+prebuilts/ndk/*
+prebuilts/python/*
+prebuilts/qemu-kernel/*
+prebuilts/r8/*
+prebuilts/remoteexecution-client/*
+prebuilts/runtime/*
+
+prebuilts/rust/*
+prebuilts/sdk/*
+prebuilts/tools/*
+prebuilts/vndk/*
 
 
 
