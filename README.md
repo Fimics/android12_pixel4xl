@@ -3,6 +3,34 @@
 # macOS Monterey(12.21)Pixel 4xl 编译android12.0.0_r28
 
 
+# AOSP 目录结构
+##### art：Android Runtime，一种App运行模式，区别于传统的Dalvik虚拟机，旨在提高Android系统的流畅性
+##### bionic：基础C库源代码，Android改造的C/C++库
+##### bootable：Android程序启动导引，适合各种bootloader的通用代码，包括一个recovery目录
+##### build：存放系统编译规则及generic等基础开发包配置
+##### cts： Android兼容性测试套件标准
+##### dalvik：Android Dalvik虚拟机相关内容
+##### developers：Android开发者参考文档
+##### development： Android应用开发基础设施相关
+##### device：Android支持的各种设备及相关配置
+##### external：Android中使用的外部开源库
+##### frameworks：应用程序框架，Android系统核心部分，由Java和C++编写
+##### hardware：硬件适配接口
+##### kernel：Linux Kernel，不过Android默认不提供，需要单独下载，只有一个tests目录
+##### libcore：Android Java核心类库
+##### libnativehelper：Android动态库，实现JNI库的基础
+##### packages：应用程序包
+##### pdk：Plug Development Kit 的缩写，本地开发套件
+##### platform_testing：Android平台测试程序
+##### prebuilts：x86和arm架构下预编译的一些资源
+##### sdk：Android的Java层sdk
+##### system：Android底层文件系统库、应用和组件
+##### test：Android Vendor测试框架
+##### toolchain：Android工具链文件
+##### tools：Android工具文件
+
+
+
 ## 1.代号，标记 build号
 >https://source.android.google.cn/setup/start/build-numbers
 
@@ -110,15 +138,6 @@ sudo ./development/tools/idegen/idegen.sh
 
 >https://studygolang.com/articles/32127
 
-mm编译当前目录下的模块，不编译依赖模块  
-mmm：编译指定目录下的模块，不编译它所依赖的其它模块。  
-mma：编译当前目录下的模块及其依赖项。     
-mmma：编译指定路径下所有模块，并且包含依赖。   
-
->如果你修改了源码，想查看生成的APK文件，有两种方式：  
-1. 通过adb push或者adb install 来安装APK。  
-2. 使用make snod命令，重新生成 system.img，运行模拟器查看  
-
 
 ## 12.修改编译Frameworks的代码
 在根目标执行  
@@ -128,6 +147,15 @@ make framework  make systemimage
 
 mmm ./xx/xx/app  
 make snod
+
+mm编译当前目录下的模块，不编译依赖模块  
+mmm：编译指定目录下的模块，不编译它所依赖的其它模块。  
+mma：编译当前目录下的模块及其依赖项。     
+mmma：编译指定路径下所有模块，并且包含依赖。   
+
+>如果你修改了源码，想查看生成的APK文件，有两种方式：  
+1. 通过adb push或者adb install 来安装APK。  
+2. 使用make snod命令，重新生成 system.img，运行模拟器查看  
 
 ### 刷机 
 
