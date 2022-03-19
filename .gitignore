@@ -18,7 +18,7 @@ device/*
 external/*
 #frameworks/*
 hardware/*
-kernel/*
+#kernel/*
 #libcore/*
 
 
