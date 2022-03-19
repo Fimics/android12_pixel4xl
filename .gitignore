@@ -1,22 +1,22 @@
-#art/*
-#bionic/*
-#bootable/*
-#build/*
-#compatibility/*
+art/*
+bionic/*
+bootable/*
+build/*
+compatibility/*
 
 
-#cts/*
+cts/*
 cts/tests/*
 
 
-#dalvik/*
-#developers/*
-#development/*
+dalvik/*
+developers/*
+development/*
 
-#device/*
+device/*
 device/google/coral-kernel/unstripped/wlan.ko
 
-#external/*
+external/*
 
 #文件夹从大到小排列
 #external/llvm-project/*
@@ -74,12 +74,15 @@ device/google/coral-kernel/unstripped/wlan.ko
 
 
 #frameworks/*
-#hardware/*
-#kernel/*
-#libcore/*
+frameworks/base/cmds/incidentd/testdata/morethan96MB.txt
 
 
-#libnativehelper/*
+hardware/*
+kernel/*
+libcore/*
+
+
+libnativehelper/*
 
 #packages/*
 packages/modules/ArtPrebuilt/com.android.art.debug-x86_64.apex
@@ -93,83 +96,83 @@ packages/modules/ArtPrebuilt/com.android.art-arm64.apex
 packages/modules/ArtPrebuilt/com.android.art-x86.apex
 packages/apps/TV/tuner/tests/assets/capture_stream.ts
 packages/modules/GeoTZ/tzbb_data/input-data.zip
-frameworks/base/cmds/incidentd/testdata/morethan96MB.txt
 
 
-#pdk/*
-#platform_testing/*
 
-#prebuilts/*
-prebuilts/abi-dumps/*
-prebuilts/android-emulator/*
-prebuilts/asuite/*
-prebuilts/bazel/*
-prebuilts/build-tools/*
-prebuilts/bundletool/*
-prebuilts/checkcolor/*
-prebuilts/checkstyle/*
-prebuilts/clang/*
+pdk/*
+platform_testing/*
 
-prebuilts/clang-tools/*
-prebuilts/cmdline-tools/*
-prebuilts/devtools/*
-prebuilts/fuchsia_sdk/*
-prebuilts/gcc/*
-prebuilts/gdb/*
-prebuilts/go/*
-prebuilts/gradle-plugin/*
-prebuilts/jdk/*
+prebuilts/*
+#prebuilts/abi-dumps/*
+#prebuilts/android-emulator/*
+#prebuilts/asuite/*
+#prebuilts/bazel/*
+#prebuilts/build-tools/*
+#prebuilts/bundletool/*
+#prebuilts/checkcolor/*
+#prebuilts/checkstyle/*
+#prebuilts/clang/*
+
+#prebuilts/clang-tools/*
+#prebuilts/cmdline-tools/*
+#prebuilts/devtools/*
+#prebuilts/fuchsia_sdk/*
+#prebuilts/gcc/*
+#prebuilts/gdb/*
+#prebuilts/go/*
+#prebuilts/gradle-plugin/*
+#prebuilts/jdk/*
 #prebuilts/ktlint/*
 
-prebuilts/manifest-merger/*
-prebuilts/maven_repo/*
-prebuilts/misc/*
-prebuilts/module_sdk/*
-prebuilts/ndk/*
-prebuilts/python/*
-prebuilts/qemu-kernel/*
-prebuilts/r8/*
-prebuilts/remoteexecution-client/*
-prebuilts/runtime/*
+#prebuilts/manifest-merger/*
+#prebuilts/maven_repo/*
+#prebuilts/misc/*
+#prebuilts/module_sdk/*
+#prebuilts/ndk/*
+#prebuilts/python/*
+#prebuilts/qemu-kernel/*
+#prebuilts/r8/*
+#prebuilts/remoteexecution-client/*
+#prebuilts/runtime/*
 
-prebuilts/rust/*
-prebuilts/sdk/*
-prebuilts/tools/*
-prebuilts/vndk/*
-
-
-
-#sdk/*
-#system/*
-#test/*
-#toolchain/*
-
-#tools/*
-tools/dexter/testdata/expected/large.code_coverage
-tools/dexter/testdata/expected/large.verbose_cfg
-tools/dexter/testdata/expected/large.asm
-tools/tradefederation/prebuilts/filegroups/tradefed/tradefed.jar
-tools/dexter/testdata/expected/large.scratch_regs
-tools/dexter/testdata/expected/large.rewrite
-tools/dexter/testdata/expected/large.compact_cfg
-
-#out/*
-out/host/*
-out/soong/*
-out/target/*
-out/.kati_stamp-aosp_coral
-out/build-aosp_coral.ninja
-out/*.gz
-out/*.log
-out/*.lock
-out/*.txt
-out/*.hash
-out/.path/*
-out/.soong_ui_intermediates/*
-out/..path_interposer_intermediates/*
-out/.microfactory_Darwin_intermediates/*
-out/.module_paths/*
+#prebuilts/rust/*
+#prebuilts/sdk/*
+#prebuilts/tools/*
+#prebuilts/vndk/*
 
 
-#vendor/*
-vendor/google_devices/coral/proprietary/vendor.img
+
+sdk/*
+system/*
+test/*
+toolchain/*
+
+tools/*
+#tools/dexter/testdata/expected/large.code_coverage
+#tools/dexter/testdata/expected/large.verbose_cfg
+#tools/dexter/testdata/expected/large.asm
+#tools/tradefederation/prebuilts/filegroups/tradefed/tradefed.jar
+#tools/dexter/testdata/expected/large.scratch_regs
+#tools/dexter/testdata/expected/large.rewrite
+#tools/dexter/testdata/expected/large.compact_cfg
+
+out/*
+#out/host/*
+#out/soong/*
+#out/target/*
+#out/.kati_stamp-aosp_coral
+#out/build-aosp_coral.ninja
+#out/*.gz
+#out/*.log
+#out/*.lock
+#out/*.txt
+#out/*.hash
+#out/.path/*
+#out/.soong_ui_intermediates/*
+#out/..path_interposer_intermediates/*
+#out/.microfactory_Darwin_intermediates/*
+#out/.module_paths/*
+
+
+vendor/*
+#vendor/google_devices/coral/proprietary/vendor.img
