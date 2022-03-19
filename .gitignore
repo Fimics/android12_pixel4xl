@@ -12,8 +12,9 @@ cts/tests/*
 #dalvik/*
 #developers/*
 #development/*
-device/*
 
+#device/*
+device/google/coral-kernel/unstripped/wlan.ko
 
 external/*
 #frameworks/*
@@ -41,7 +42,9 @@ frameworks/base/cmds/incidentd/testdata/morethan96MB.txt
 
 #pdk/*
 #platform_testing/*
+
 prebuilts/*
+
 
 
 #sdk/*

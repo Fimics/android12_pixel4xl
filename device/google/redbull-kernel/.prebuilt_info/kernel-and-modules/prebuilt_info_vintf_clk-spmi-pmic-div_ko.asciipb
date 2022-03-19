@@ -1,0 +1,11 @@
+drops {
+  android_build_drop {
+    build_id: "8008033"
+    target: "kernel_redbull_vintf"
+    source_file: "clk-spmi-pmic-div.ko"
+  }
+  dest_file: "vintf/clk-spmi-pmic-div.ko"
+  version: "Linux version 4.19.202-g5fbe36ea56f7-ab8008033 (build-user@build-host) (Android (7284624, based on r416183b) clang version 12.0.5 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee), LLD 12.0.5 (/buildbot/src/android/llvm-toolchain/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee)) #1 SMP PREEMPT Thu Dec 16 06:08:11 UTC 2021"
+  version_group: "kernel-and-modules"
+  git_project: "device/google/redbull-kernel"
+}
