@@ -53,6 +53,17 @@ out/soong/*
 out/target/*
 out/.kati_stamp-aosp_coral
 out/build-aosp_coral.ninja
+out/*.gz
+out/*.log
+out/*.lock
+out/*.txt
+out/*.hash
+out/.path/*
+out/.soong_ui_intermediates/*
+out/..path_interposer_intermediates/*
+out/.microfactory_Darwin_intermediates/*
+out/.module_paths/*
+
 
 
 

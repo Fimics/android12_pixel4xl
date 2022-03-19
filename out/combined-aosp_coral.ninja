@@ -1,0 +1,7 @@
+
+builddir = out
+pool highmem_pool
+ depth = 1
+subninja out/build-aosp_coral.ninja
+subninja out/build-aosp_coral-package.ninja
+subninja out/soong/build.ninja
