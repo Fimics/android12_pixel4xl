@@ -22,12 +22,12 @@ device/google/coral-kernel/unstripped/wlan.ko
 external/llvm-project/*
 external/deqp/*
 external/jackson-databind/*
-external/libabigail/*
-external/swiftshader/*
-external/vixl/*
-external/python/*
-external/icu/*
-external/cldr/*
+#external/libabigail/*
+#external/swiftshader/*
+#external/vixl/*
+#external/python/*
+#external/icu/*
+#external/cldr/*
 
 
 #external/chromium-webview/*
