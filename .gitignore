@@ -45,7 +45,7 @@ prebuilts/*
 
 
 #sdk/*
-system/*
+#system/*
 #test/*
 #toolchain/*
 
