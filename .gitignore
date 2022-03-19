@@ -30,45 +30,45 @@ external/icu/*
 external/cldr/*
 
 
-external/chromium-webview/*
-external/tensorflow/*
-external/autotest/*
-external/llvm/*
-external/mesa3d/*
-external/angle/*
-external/skqp/*
-external/rust/*
-external/boringssl/*
+#external/chromium-webview/*
+#external/tensorflow/*
+#external/autotest/*
+#external/llvm/*
+#external/mesa3d/*
+#external/angle/*
+#external/skqp/*
+#external/rust/*
+#external/boringssl/*
 
-external/jackson-core/*
-external/skia/*
-external/webrtc/*
-external/toolchain-utils/*
-external/clang/*
-external/noto-fonts/*
-external/libtextclassifier/*
-external/kotlinc/*
-external/ImageMagick/*
+#external/jackson-core/*
+#external/skia/*
+#external/webrtc/*
+#external/toolchain-utils/*
+#external/clang/*
+#external/noto-fonts/*
+#external/libtextclassifier/*
+#external/kotlinc/*
+#external/ImageMagick/*
 
-external/vboot_reference/*
-external/virglrenderer/*
-external/deqp-deps/*
-external/lottie/*
-external/XNNPACK/*
-external/grpc-grpc/*
-external/openscreen/*
-external/OpenCSD/*
-external/e2fsprogs/*
+#external/vboot_reference/*
+#external/virglrenderer/*
+#external/deqp-deps/*
+#external/lottie/*
+#external/XNNPACK/*
+#external/grpc-grpc/*
+#external/openscreen/*
+#external/OpenCSD/*
+#external/e2fsprogs/*
 
-external/oss-fuzz/*
-external/libxml2/*
-external/brotli/*
-external/OpenCL-CTS/*
-external/exoplayer/*
-external/protobuf/*
-external/guava/*
-external/pdfium/*
-external/pdfium/*
+#external/oss-fuzz/*
+#external/libxml2/*
+#external/brotli/*
+#external/OpenCL-CTS/*
+#external/exoplayer/*
+#external/protobuf/*
+#external/guava/*
+#external/pdfium/*
+#external/pdfium/*
 
 
 
