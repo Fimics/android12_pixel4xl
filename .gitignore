@@ -48,7 +48,15 @@ prebuilts/*
 system/*
 #test/*
 #toolchain/*
-tools/*
+
+#tools/*
+tools/dexter/testdata/expected/large.code_coverage
+tools/dexter/testdata/expected/large.verbose_cfg
+tools/dexter/testdata/expected/large.asm
+tools/tradefederation/prebuilts/filegroups/tradefed/tradefed.jar
+tools/dexter/testdata/expected/large.scratch_regs
+tools/dexter/testdata/expected/large.rewrite
+tools/dexter/testdata/expected/large.compact_cfg
 
 #out/*
 out/host/*
@@ -69,3 +77,4 @@ out/.module_paths/*
 
 
 #vendor/*
+vendor/google_devices/coral/proprietary/vendor.img
