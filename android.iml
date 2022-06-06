@@ -1021,6 +1021,7 @@
       <excludeFolder url="file://$MODULE_DIR$/libcore" />
       <excludeFolder url="file://$MODULE_DIR$/libnativehelper" />
       <excludeFolder url="file://$MODULE_DIR$/out" />
+      <excludeFolder url="file://$MODULE_DIR$/packages" />
       <excludeFolder url="file://$MODULE_DIR$/ndk" />
       <excludeFolder url="file://$MODULE_DIR$/pdk" />
       <excludeFolder url="file://$MODULE_DIR$/prebuilts" />
